@@ -115,16 +115,16 @@ function AddUser() {
                 
                 <Form.Group className="mb-3" controlId="formBasicProduct">
                
-                  <Form.Label className='text'>Product Name</Form.Label>
-                  <Form.Control type="text" placeholder="Enter Product name " name="pname" />
+                  <Form.Label className='text'>Product code</Form.Label>
+                  <Form.Control type="text" placeholder="Enter Product code " name="pname" />
                   <Form.Text className="text-muted">
 
                   </Form.Text>
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPrice">
-                  <Form.Label className='text'>Price</Form.Label>
-                  <Form.Control type="text" placeholder="Price" name="price" />
+                  <Form.Label className='text'>Product Name</Form.Label>
+                  <Form.Control type="text" placeholder="Product name" name="price" />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicQuantity">
@@ -161,8 +161,8 @@ function AddUser() {
               <thead>
                 <tr>
                   <th>#</th>
-                  <th  >Product Name</th>
-                  <th >Price</th>
+                  <th  >Product Code</th>
+                  <th >Product Name</th>
                   <th>Quantity</th>
 
                 </tr>
@@ -207,8 +207,8 @@ function AddUser() {
               <thead>
                 <tr>
                   <th>#</th>
-                  <th  >Product Name</th>
-                  <th >Price</th>
+                  <th  >Product code</th>
+                  <th >Product Name</th>
                   <th>Quantity</th>
                   <th>Actions</th>
                 </tr>
