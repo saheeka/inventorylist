@@ -1,0 +1,35 @@
+
+.text{
+    color: rgb(83, 6, 6);
+    text-align: center;
+
+}
+.title{
+    
+    font-family: monotype corsiva;
+    font-weight:bolder;
+    font-size: xx-large;
+    
+}
+p{
+    color: black;
+}
+.txtbox{
+    margin-left: 30%;
+}
+.contain{
+    background-image: url("https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/7/6/7/5/535767-1-eng-GB/CFDA-issues-notice-of-IECIC-2014-cosmetics-inventory-list.jpg");
+height: calc(100vh - 80px);
+}
+.brand{
+    font-family: monotype corsiva;
+    font-weight:bolder;
+    font-size: xx-large; 
+}
+td,th{
+    text-align: center;
+    color: white;
+}
+.tab{
+    background-color: black;
+}
