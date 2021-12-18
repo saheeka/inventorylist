@@ -1,18 +1,24 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AddUser from './components/Dashboard';
+import Home from './components/Home';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 import { Container } from 'react-bootstrap'
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Container>
-
-        <AddUser />
+        <Routes>
+      <Route  path='/' element={<Home/>}/>
+      
+        </Routes>
+        
       </Container>
     </div>
+    </Router>
   );
 }
 

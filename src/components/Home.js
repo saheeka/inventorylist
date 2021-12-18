@@ -1,9 +1,9 @@
 import React from 'react'
 import { Form, Button, Table, Nav, Navbar, Container, Modal } from 'react-bootstrap'
 import { useState } from 'react';
-import './Dashboard.css'
+import './Home.css'
 
-function AddUser() {
+function Home() {
 
   let initialvalue = []
   const handleClose = () => setAdd(false);
@@ -248,4 +248,4 @@ function AddUser() {
   )
 }
 
-export default AddUser
+export default Home
